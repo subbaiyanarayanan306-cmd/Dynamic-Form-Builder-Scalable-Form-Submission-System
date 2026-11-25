@@ -1,36 +1,3 @@
-// const express = require("express");
-// const cors = require("cors");
-// const mongoose = require("mongoose");
-
-// const app = express();
-// require("dotenv").config();
-
-// app.use(express.json());
-// app.use(cors());
-
-// app.get("/api/test", (req, res) => {
-//   res.status(200).json({
-//     success: true,
-//     message: "Dynamic Form Builder Backend is Running!",
-//   });
-// });
-
-// app.get("/", (req, res) => {
-//   res.send("Backend Server Running");
-// });
-
-// mongoose.connect(process.env.MONGO_URI).then(() => {
-//   try{
-//     // LIST THIS EXPRESS APP PORT SERVER BELOW:
-//   app.listen(process.env.PORT, () => {
-//     console.log(`DB IS CONNECTED AND Server running on port ${process.env.PORT}`);
-//   });
-//   }catch(err){
-//       console.log(`DB CONNECTION IS FAILED PORT IN :  ${process.env.PORT}`)
-//   }
-// });
-
-
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
